@@ -1,0 +1,1117 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>上海市贸易学校 · 明德 诚信 勤学 自强</title>
+<meta name="description" content="上海市贸易学校：国家级重点中等职业学校，食品技术、财经商贸、计算机信息三大专业群。个人整理的非官方介绍页。" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="上海市贸易学校 · 六十年，把人育好" />
+<meta property="og:description" content="国家级重点中等职业学校 | 食品技术 · 财经商贸 · 计算机信息三大专业群 | 就业率 99% 以上" />
+<meta property="og:url" content="https://pcr110831-crypto.github.io/shsmyxx/school.html" />
+<meta property="og:image" content="https://pcr110831-crypto.github.io/shsmyxx/lawn.jpg" />
+<meta name="twitter:card" content="summary_large_image" />
+<link rel="icon" href="logo.png" />
+<style>
+  :root{
+    --ink:#0f1c2e;
+    --ink-2:#3c4d63;
+    --ink-3:#7d8b9c;
+    --gold:#b9945a;
+    --gold-2:#d9bc82;
+    --paper:#fbf8f1;
+    --paper-2:#f6f1e6;
+    --line:rgba(15,28,46,.10);
+    --wrap:820px;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    margin:0;background:var(--paper);color:var(--ink);
+    font-family:"PingFang SC","Microsoft YaHei","Hiragino Sans GB",system-ui,-apple-system,sans-serif;
+    -webkit-font-smoothing:antialiased;line-height:1.7;
+  }
+  a{color:inherit;text-decoration:none}
+  img{display:block;max-width:100%}
+  ::selection{background:rgba(185,148,90,.22)}
+
+  /* ---------- nav ---------- */
+  .nav{
+    position:fixed;inset:0 0 auto 0;z-index:50;height:62px;
+    display:flex;align-items:center;justify-content:space-between;
+    padding:0 34px;transition:background .45s,box-shadow .45s,height .45s;
+  }
+  .nav.solid{height:54px;background:rgba(251,248,241,.92);backdrop-filter:blur(14px);box-shadow:0 1px 0 var(--line)}
+  .brand{display:flex;align-items:center;gap:9px}
+  .brand img{width:26px;height:26px}
+  .brand b{font-size:13px;letter-spacing:.1em;font-weight:600;color:rgba(255,255,255,.92);transition:color .45s}
+  .nav.solid .brand b{color:var(--ink)}
+  .links{display:flex;align-items:center;gap:26px}
+  .links a{font-size:12.5px;letter-spacing:.06em;color:rgba(255,255,255,.66);transition:color .3s}
+  .links a:hover{color:var(--gold-2)}
+  .nav.solid .links a{color:var(--ink-3)}
+  .nav.solid .links a:hover{color:var(--gold)}
+  .links .back{color:rgba(255,255,255,.82)}
+  .nav.solid .links .back{color:var(--gold)}
+
+  /* ---------- hero ---------- */
+  .hero{
+    position:relative;overflow:hidden;min-height:100svh;padding:118px 30px 92px;
+    display:flex;align-items:center;justify-content:center;text-align:center;color:#eff3f8;
+    background:
+      radial-gradient(120% 90% at 78% 8%,rgba(64,104,156,.26),transparent 62%),
+      radial-gradient(100% 80% at 12% 92%,rgba(185,148,90,.16),transparent 60%),
+      linear-gradient(180deg,#0d1a2b 0%,#0f1c2e 46%,#122238 100%);
+  }
+  .hero::after{
+    content:"";position:absolute;inset:0;pointer-events:none;
+    background-image:linear-gradient(rgba(255,255,255,.028) 1px,transparent 1px),
+                     linear-gradient(90deg,rgba(255,255,255,.028) 1px,transparent 1px);
+    background-size:56px 56px;
+    mask-image:radial-gradient(70% 60% at 50% 40%,#000,transparent 78%);
+    -webkit-mask-image:radial-gradient(70% 60% at 50% 40%,#000,transparent 78%);
+  }
+  .hero-inner{position:relative;z-index:2;max-width:720px}
+  .crest{width:74px;height:74px;margin:0 auto;filter:drop-shadow(0 10px 22px rgba(0,0,0,.45))}
+  .hero h1{
+    margin:24px 0 0;font-size:clamp(34px,5.4vw,56px);font-weight:800;letter-spacing:.06em;line-height:1.15;
+    background:linear-gradient(180deg,#fff 30%,#dfd3bd 100%);
+    -webkit-background-clip:text;background-clip:text;color:transparent;
+  }
+  .latin{margin:15px 0 0;font-family:Georgia,serif;font-size:11.5px;letter-spacing:.34em;color:var(--gold-2);text-transform:uppercase}
+  .lede{margin:28px auto 0;max-width:540px;font-size:15px;line-height:2;color:rgba(239,243,248,.72)}
+  .lede strong{color:#fff;font-weight:600}
+  .facts{
+    margin:48px auto 0;padding-top:32px;border-top:1px solid rgba(255,255,255,.1);
+    display:grid;grid-template-columns:repeat(4,1fr);gap:10px;max-width:620px;
+  }
+  .fact b{display:block;font-family:Georgia,serif;font-size:clamp(26px,3.2vw,36px);font-weight:400;color:#fff;line-height:1.1}
+  .fact b i{font-style:normal;font-size:.52em;color:var(--gold-2);margin-left:2px}
+  .fact span{display:block;margin-top:9px;font-size:11.5px;color:rgba(239,243,248,.46);letter-spacing:.14em}
+  .hero-meta{margin:38px auto 0;max-width:800px;font-size:10.5px;line-height:1.9;color:rgba(255,255,255,.32)}
+  .hero-meta a{color:rgba(217,188,130,.62);border-bottom:1px solid rgba(217,188,130,.22);transition:.3s}
+  .hero-meta a:hover{color:var(--gold-2);border-bottom-color:var(--gold-2)}
+  .hero-meta .hm{white-space:nowrap}
+  .hero-meta .dot{margin:0 9px;color:rgba(255,255,255,.18)}
+  @media (max-width:1420px){
+    .hero-meta{max-width:540px;font-size:10px}
+    .hero-meta .hm{white-space:nowrap}
+    .hero-meta .dot{display:none}
+    .hero-meta .hm:not(:last-child){margin-right:20px}
+  }
+  @media (max-width:1150px){.hero-meta{max-width:400px}}
+
+  .hero-left{
+    position:absolute;left:max(3vw,24px);bottom:-6px;z-index:3;
+    display:flex;align-items:flex-end;gap:26px;
+    transition:opacity .45s;
+  }
+  .pal-long{
+    width:clamp(78px,10.4vw,124px);height:auto;cursor:pointer;
+    transform-origin:50% 96%;
+    filter:drop-shadow(0 14px 22px rgba(0,0,0,.34)) saturate(1.04);
+    animation:sway 6.4s ease-in-out infinite;animation-delay:-1.7s;
+  }
+  .hero-naiwa{
+    position:absolute;right:max(3vw,24px);bottom:-8px;z-index:3;
+    width:clamp(108px,14.6vw,164px);height:auto;
+    transform-origin:50% 100%;cursor:pointer;animation:sway 5.5s ease-in-out infinite;
+    filter:drop-shadow(0 16px 26px rgba(0,0,0,.42));transition:opacity .45s;
+  }
+  @keyframes naiwaPop{0%{transform:scale(1)}35%{transform:scale(1.07) rotate(-4deg)}70%{transform:scale(.98) rotate(2deg)}100%{transform:scale(1)}}
+  @keyframes sway{0%,100%{transform:rotate(-2.6deg) translateY(0)}50%{transform:rotate(2.6deg) translateY(-7px)}}
+
+  .hero-mark{
+    display:flex;flex-direction:column;gap:9px;margin-bottom:34px;
+  }
+  .hero-mark i{display:block;width:28px;height:1px;background:linear-gradient(90deg,rgba(217,188,130,.6),rgba(217,188,130,0))}
+  .hero-mark p{margin:0;font-size:10.5px;letter-spacing:.26em;color:rgba(255,255,255,.32)}
+  .hero-mark p.mono{font-family:Georgia,"Times New Roman",serif;font-size:9.5px;letter-spacing:.36em;color:rgba(217,188,130,.46)}
+
+  .scroll-hint{
+    position:absolute;left:50%;bottom:20px;z-index:2;translate:-50% 0;
+    font-size:10px;letter-spacing:.42em;color:rgba(255,255,255,.3);
+    display:flex;flex-direction:column;align-items:center;gap:8px;
+  }
+  .scroll-hint::after{content:"";width:1px;height:30px;background:linear-gradient(180deg,rgba(255,255,255,.4),transparent);animation:drop 2.4s ease-in-out infinite}
+  @keyframes drop{0%{opacity:0;transform:scaleY(.3)}45%{opacity:1}100%{opacity:0;transform:scaleY(1)}}
+
+  /* ---------- section ---------- */
+  section{padding:96px 30px}
+  .wrap{max-width:var(--wrap);margin:0 auto}
+  .eyebrow{font-family:Georgia,serif;font-size:10.5px;letter-spacing:.4em;color:var(--gold);text-transform:uppercase;text-align:center}
+  h2{margin:15px 0 0;text-align:center;font-size:clamp(23px,3.2vw,32px);font-weight:750;letter-spacing:.04em;line-height:1.3}
+  .sub{margin:13px auto 0;max-width:540px;text-align:center;font-size:13.5px;color:var(--ink-3);line-height:1.9}
+
+  .reveal{opacity:0;transform:translateY(20px);transition:opacity .8s cubic-bezier(.2,.7,.3,1),transform .8s cubic-bezier(.2,.7,.3,1)}
+  .reveal.in{opacity:1;transform:none}
+
+  /* ---------- about ---------- */
+  .about p{margin:20px 0 0;font-size:15px;line-height:2.1;color:var(--ink-2)}
+  .about strong{color:var(--ink);font-weight:600}
+  .motto{margin:56px 0 0;display:flex;justify-content:center;align-items:baseline;gap:clamp(18px,4vw,44px);flex-wrap:wrap}
+  .motto span{font-family:"Songti SC",SimSun,serif;font-size:clamp(24px,3.4vw,36px);font-weight:700;letter-spacing:.1em}
+  .motto span:nth-child(even){color:var(--gold)}
+  .motto-wall{
+    margin:34px 0 0;border-radius:3px;overflow:hidden;
+    box-shadow:0 18px 40px -28px rgba(15,28,46,.55);
+  }
+  .motto-wall img{display:block;width:100%;height:clamp(150px,20vw,240px);object-fit:cover;object-position:50% 46%}
+  .motto-note{margin-top:14px;text-align:center;font-size:10px;letter-spacing:.4em;color:var(--ink-3)}
+
+  .tags{margin:44px 0 0;display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+  .tags span{
+    font-size:11.5px;letter-spacing:.02em;color:var(--ink-3);text-align:center;
+    padding:11px 10px;border:1px solid var(--line);border-radius:2px;background:#fff;
+    transition:border-color .35s,color .35s,transform .35s;
+  }
+  .tags span:hover{border-color:rgba(185,148,90,.45);color:var(--ink);transform:translateY(-2px)}
+
+  /* ---------- majors ---------- */
+  .majors{background:var(--paper-2)}
+  .cards{margin:48px 0 0;display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+  .card{
+    position:relative;padding:30px 24px 28px;background:#fff;border:1px solid var(--line);
+    border-radius:3px;overflow:hidden;display:flex;flex-direction:column;
+    transition:transform .45s cubic-bezier(.2,.7,.3,1),box-shadow .45s,border-color .45s;
+  }
+  .card::before{content:"";position:absolute;left:0;top:0;height:2px;width:0;background:linear-gradient(90deg,var(--gold),var(--gold-2));transition:width .55s cubic-bezier(.2,.7,.3,1)}
+  .card:hover{transform:translateY(-6px);border-color:rgba(185,148,90,.4);box-shadow:0 22px 44px -24px rgba(15,28,46,.32)}
+  .card:hover::before{width:100%}
+  .card .ico{width:32px;height:32px;color:var(--gold);stroke-width:1.3}
+  .card h3{margin:18px 0 0;font-size:17px;font-weight:700;letter-spacing:.04em}
+  .card .en{font-family:Georgia,serif;font-size:9.5px;letter-spacing:.26em;color:var(--ink-3);margin-top:6px}
+  .card p{margin:15px 0 0;font-size:13px;line-height:1.95;color:var(--ink-2)}
+  .card ul{margin:14px 0 0;padding:0;list-style:none}
+  .card li{position:relative;padding-left:13px;font-size:12.5px;line-height:1.95;color:var(--ink-3)}
+  .card li::before{content:"";position:absolute;left:0;top:.86em;width:4px;height:1px;background:var(--gold)}
+  .path-map{
+    position:relative;margin:42px auto 0;max-width:730px;padding-left:22px;
+    display:grid;gap:20px;text-align:left;
+  }
+  .path-map::before{
+    content:"";position:absolute;left:3px;top:9px;bottom:9px;width:1px;
+    background:linear-gradient(180deg,rgba(185,148,90,.6),rgba(185,148,90,.1));
+  }
+  .pm-row{position:relative;display:grid;grid-template-columns:150px 1fr;gap:18px;align-items:baseline}
+  .pm-row::before{
+    content:"";position:absolute;left:-22px;top:7px;width:7px;height:7px;border-radius:50%;
+    background:var(--paper-2);border:1.5px solid var(--gold);
+  }
+  .pm-row b{font-size:13px;font-weight:650;color:var(--ink);letter-spacing:.02em}
+  .pm-row span{font-size:12.5px;line-height:1.95;color:var(--ink-3)}
+  .path-tip{
+    margin:26px 0 0;text-align:center;font-size:12.5px;letter-spacing:.04em;color:var(--ink-3);
+  }
+
+  /* ---------- record ---------- */
+  .record{background:var(--ink);color:#eef2f7;position:relative;overflow:hidden}
+  .record::before{
+    content:"";position:absolute;inset:-34% -12% auto auto;width:540px;height:540px;border-radius:50%;
+    background:radial-gradient(closest-side,rgba(185,148,90,.16),transparent 70%);
+  }
+  .record .wrap{position:relative;z-index:2}
+  .record .eyebrow{color:rgba(217,188,130,.8)}
+  .record h2{color:#fff}
+  .nums{margin:52px 0 0;display:grid;grid-template-columns:repeat(3,1fr);gap:20px;text-align:center}
+  .num b{display:block;font-family:Georgia,serif;font-weight:400;font-size:clamp(36px,5.4vw,58px);line-height:1;color:#fff}
+  .num span{display:block;margin-top:15px;font-size:12px;letter-spacing:.08em;color:rgba(238,242,247,.5);line-height:1.8}
+  .record .tail{
+    margin:50px auto 0;padding-top:28px;border-top:1px solid rgba(255,255,255,.1);
+    max-width:620px;text-align:center;font-size:13px;line-height:2;color:rgba(238,242,247,.58);
+  }
+
+  /* ---------- honors ---------- */
+  .honors{background:var(--ink);color:#eef2f7;position:relative;overflow:hidden}
+  .honors::before{
+    content:"";position:absolute;inset:auto auto -30% -14%;width:520px;height:520px;border-radius:50%;
+    background:radial-gradient(closest-side,rgba(185,148,90,.13),transparent 70%);
+  }
+  .honors .wrap{position:relative;z-index:2}
+  .honors .eyebrow{color:rgba(217,188,130,.8)}
+  .honors h2{color:#fff}
+  .honors .sub{color:rgba(238,242,247,.5)}
+  .plates{
+    list-style:none;margin:52px 0 0;padding:0;
+    display:grid;grid-template-columns:repeat(3,1fr);gap:1px;
+    background:rgba(255,255,255,.08);
+    border:1px solid rgba(255,255,255,.08);
+  }
+  .plates li{
+    background:#0f1c2e;padding:26px 22px 28px;
+    display:flex;flex-direction:column;gap:10px;
+    transition:background .4s;
+  }
+  .plates li:hover{background:#132339}
+  .plates em{
+    font-style:normal;font-size:9.5px;letter-spacing:.26em;
+    color:rgba(217,188,130,.66);text-transform:uppercase;
+  }
+  .plates span{font-size:13.5px;line-height:1.65;color:rgba(238,242,247,.9)}
+
+  /* ---------- faculty ---------- */
+  .faculty{background:#fff}
+  .faculty .nums{grid-template-columns:repeat(4,1fr);gap:18px}
+  .faculty .num b{color:var(--ink)}
+  .faculty .num b i{font-style:normal;font-size:.4em;vertical-align:super;margin-left:2px}
+  .faculty .num span{color:var(--ink-3)}
+  .faculty .tail{
+    margin:48px auto 0;padding-top:26px;border-top:1px solid var(--line);
+    max-width:640px;text-align:center;font-size:13px;line-height:2;color:var(--ink-3);
+  }
+
+  /* ---------- workshop ---------- */
+  .shop{background:var(--paper-2)}
+  .shops{margin:48px 0 0;display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+  .shop-item{
+    padding:24px 22px;background:#fff;border:1px solid var(--line);border-radius:3px;
+    transition:transform .4s cubic-bezier(.2,.7,.3,1),border-color .4s,box-shadow .4s;
+  }
+  .shop-item:hover{transform:translateY(-4px);border-color:rgba(185,148,90,.42);box-shadow:0 16px 34px -20px rgba(15,28,46,.3)}
+  .shop-item .lvl{display:block;font-size:10px;letter-spacing:.22em;color:var(--gold);margin-bottom:11px}
+  .shop-item b{display:block;font-size:13.5px;font-weight:650;line-height:1.6}
+  .shop-note{
+    margin:40px auto 0;padding-top:26px;border-top:1px solid var(--line);
+    max-width:680px;text-align:center;font-size:13px;line-height:2;color:var(--ink-3);
+  }
+  .shop-note b{color:var(--ink);font-weight:600}
+
+  /* ---------- gallery ---------- */
+  .gallery{background:var(--paper)}
+  .shots{margin:48px 0 0;display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+  .shots figure{margin:0;position:relative;overflow:hidden;border-radius:3px;background:#e8e2d6}
+  .shots .shot-wide{grid-column:1 / -1}
+  .shots .shot-wide img{height:clamp(220px,32vw,380px)}
+  .shots img{
+    width:100%;height:196px;object-fit:cover;display:block;
+    transition:transform .8s cubic-bezier(.2,.7,.3,1),filter .5s;
+  }
+  .shots figure:hover img{transform:scale(1.045)}
+  .shots figcaption{
+    position:absolute;left:0;right:0;bottom:0;padding:26px 16px 12px;
+    font-size:11.5px;letter-spacing:.04em;color:rgba(255,255,255,.9);
+    background:linear-gradient(180deg,transparent,rgba(10,18,30,.66));
+  }
+
+  /* ---------- 专业详情浮层 ---------- */
+  .card-more{
+    margin-top:20px;align-self:flex-start;
+    font-size:11.5px;letter-spacing:.14em;color:var(--gold);
+    border:0;border-bottom:1px solid rgba(185,148,90,.4);padding:0 0 3px;
+    background:none;cursor:pointer;font-family:inherit;
+    transition:color .3s,border-color .3s;
+  }
+  .card-more span{display:inline-block;transition:transform .3s}
+  .card-more:hover{color:var(--ink);border-color:var(--ink)}
+  .card-more:hover span{transform:translateX(3px)}
+
+  .modal{
+    position:fixed;inset:0;z-index:80;display:grid;place-items:center;padding:24px;
+    opacity:0;visibility:hidden;transition:opacity .35s,visibility .35s;
+  }
+  .modal.on{opacity:1;visibility:visible}
+  .modal-mask{position:absolute;inset:0;background:rgba(9,17,28,.62);backdrop-filter:blur(3px)}
+  .modal-card{
+    position:relative;z-index:2;width:min(560px,100%);max-height:82vh;overflow:auto;
+    background:var(--paper);border-radius:4px;padding:38px 36px 34px;
+    box-shadow:0 40px 90px -40px rgba(0,0,0,.6);
+    transform:translateY(14px) scale(.98);transition:transform .4s cubic-bezier(.2,.7,.3,1);
+  }
+  .modal.on .modal-card{transform:none}
+  .modal-close{
+    position:absolute;top:12px;right:14px;width:34px;height:34px;border:0;background:none;
+    font-size:22px;line-height:1;color:var(--ink-3);cursor:pointer;transition:color .3s;
+  }
+  .modal-close:hover{color:var(--ink)}
+  .modal-eyebrow{font-size:10px;letter-spacing:.3em;color:var(--gold);text-transform:uppercase;margin:0}
+  .modal-card h3{margin:14px 0 0;font-size:24px;letter-spacing:.04em;color:var(--ink)}
+  .modal-body{margin-top:26px;display:grid;gap:20px}
+  .mb-row{display:grid;grid-template-columns:88px 1fr;gap:16px;align-items:baseline}
+  .mb-row dt{font-size:10.5px;letter-spacing:.16em;color:var(--gold)}
+  .mb-row dd{margin:0;font-size:13.5px;line-height:1.95;color:var(--ink-2)}
+
+  /* ---------- news ---------- */
+  .news{background:#fff}
+  .news-list{
+    list-style:none;margin:44px 0 0;padding:0;display:grid;gap:1px;
+    background:var(--line);border-top:1px solid var(--line);border-bottom:1px solid var(--line);
+  }
+  .news-list li{
+    background:#fff;padding:22px 20px;display:flex;gap:22px;align-items:baseline;
+    transition:background .35s,padding-left .35s;
+  }
+  .news-list li:hover{background:#fdfbf5;padding-left:28px}
+  .news-list .tag{flex:none;width:92px;font-size:10px;letter-spacing:.2em;color:var(--gold)}
+  .news-list b{font-size:14px;font-weight:600;color:var(--ink);line-height:1.7}
+  .news-src{margin:26px 0 0;text-align:center;font-size:11.5px;color:var(--ink-3);letter-spacing:.04em}
+
+  /* ---------- campus ---------- */
+  .crows{margin:48px 0 0;border-top:1px solid var(--line)}
+  .crow{
+    display:grid;grid-template-columns:170px 1fr auto;gap:22px;align-items:center;
+    padding:26px 4px;border-bottom:1px solid var(--line);transition:background .35s;
+  }
+  .crow:hover{background:rgba(255,255,255,.65)}
+  .crow .name{font-size:15px;font-weight:680;letter-spacing:.04em}
+  .crow .addr{font-size:12.5px;color:var(--ink-3)}
+  .crow .tel{font-family:Georgia,serif;font-size:17px;transition:color .3s}
+  .crow .tel:hover{color:var(--gold)}
+
+  .crow .addr a{color:var(--ink-2);border-bottom:1px solid rgba(125,139,156,.28);transition:.3s}
+  .crow .addr a:hover{color:var(--ink);border-color:var(--gold)}
+  .crow .addr .map{font-size:10.5px;color:var(--gold);letter-spacing:.06em;margin-left:4px}
+  .crow .copy{
+    margin-left:12px;font-size:10.5px;letter-spacing:.1em;color:var(--ink-3);
+    background:none;border:0;border-bottom:1px dashed rgba(125,139,156,.4);padding:0 0 2px;
+    cursor:pointer;font-family:inherit;transition:.3s;
+  }
+  .crow .copy:hover{color:var(--gold);border-color:var(--gold)}
+
+  /* ---------- cta ---------- */
+  .cta{
+    padding:92px 30px;text-align:center;color:#eef2f7;position:relative;overflow:hidden;
+    background:
+      radial-gradient(80% 100% at 50% 0%,rgba(185,148,90,.2),transparent 62%),
+      linear-gradient(180deg,#101f31,#0b1523);
+  }
+  .cta h2{color:#fff;margin-bottom:0}
+  .cta p{margin:16px auto 0;max-width:460px;font-size:13.5px;line-height:2;color:rgba(238,242,247,.6)}
+  .steps{
+    list-style:none;margin:44px auto 0;padding:0;max-width:860px;
+    display:grid;grid-template-columns:repeat(3,1fr);gap:22px;text-align:left;position:relative;z-index:2;
+  }
+  .steps li{padding:22px 20px 24px;border:1px solid rgba(255,255,255,.1);border-radius:3px;background:rgba(255,255,255,.025)}
+  .steps em{display:block;font-style:normal;font-family:Georgia,serif;font-size:11px;letter-spacing:.24em;color:rgba(217,188,130,.75)}
+  .steps b{display:block;margin-top:12px;font-size:14.5px;color:#fff;letter-spacing:.02em}
+  .steps span{display:block;margin-top:9px;font-size:12.5px;line-height:1.9;color:rgba(238,242,247,.52)}
+  .btns{margin:36px 0 0;display:flex;gap:14px;justify-content:center;flex-wrap:wrap;position:relative;z-index:2}
+  .btn{
+    display:inline-flex;align-items:center;gap:9px;padding:13px 28px;border-radius:2px;font-size:13.5px;letter-spacing:.1em;
+    transition:transform .35s cubic-bezier(.2,.7,.3,1),box-shadow .35s,border-color .35s,color .35s;
+  }
+  .btn-primary{background:linear-gradient(135deg,#c9a668,#b9945a);color:#191307;font-weight:650}
+  .btn-primary:hover{transform:translateY(-2px);box-shadow:0 16px 30px -16px rgba(185,148,90,.9)}
+  .btn-ghost{border:1px solid rgba(255,255,255,.22);color:rgba(255,255,255,.82)}
+  .btn-ghost:hover{border-color:var(--gold-2);color:var(--gold-2);transform:translateY(-2px)}
+
+  /* ---------- footer ---------- */
+  footer{padding:50px 30px 42px;text-align:center;background:#0b1523;color:rgba(255,255,255,.4)}
+  .flinks{display:flex;justify-content:center;gap:24px;flex-wrap:wrap;font-size:12px}
+  .flinks a{color:rgba(255,255,255,.5);transition:color .3s}
+  .flinks a:hover{color:var(--gold-2)}
+  .fsub{margin:16px 0 0;font-size:11.5px;color:rgba(255,255,255,.3)}
+  .legal{
+    margin:28px auto 0;padding-top:24px;max-width:720px;border-top:1px solid rgba(255,255,255,.07);
+    font-size:11px;line-height:2;color:rgba(255,255,255,.44);
+  }
+  .legal b{display:inline-block;font-weight:500;color:rgba(217,188,130,.72);margin-right:8px}
+
+  /* ---------- 小熊助手（右下角） ---------- */
+  .bear{
+    position:fixed;right:22px;bottom:22px;z-index:60;width:64px;height:64px;
+    display:grid;place-items:center;cursor:pointer;
+    border-radius:50%;background:#fffdf7;border:1px solid rgba(15,28,46,.08);
+    box-shadow:0 10px 26px -12px rgba(15,28,46,.4),0 2px 6px rgba(15,28,46,.06);
+    opacity:0;transform:translateY(14px) scale(.9);pointer-events:none;
+    transition:opacity .5s,transform .5s cubic-bezier(.2,.7,.3,1),box-shadow .4s;
+  }
+  .bear.show{opacity:1;transform:none;pointer-events:auto}
+  .bear:hover{box-shadow:0 16px 34px -14px rgba(15,28,46,.5),0 3px 8px rgba(15,28,46,.08)}
+  .bear img{width:52px;height:auto;transition:transform .5s cubic-bezier(.2,.7,.3,1);transform-origin:50% 60%}
+  .bear:hover img{transform:rotate(-8deg) scale(1.06)}
+  .bear.bounce img{animation:bearBounce .6s ease}
+  @keyframes bearBounce{0%,100%{transform:translateY(0)}35%{transform:translateY(-7px) rotate(6deg)}70%{transform:translateY(0) rotate(-3deg)}}
+
+  .bubble{
+    position:fixed;right:92px;bottom:34px;z-index:61;max-width:230px;
+    padding:10px 15px;border-radius:14px 14px 3px 14px;
+    background:#fffdf7;border:1px solid rgba(15,28,46,.08);
+    box-shadow:0 12px 28px -16px rgba(15,28,46,.45);
+    font-size:12.5px;line-height:1.6;color:var(--ink-2);
+    opacity:0;transform:translateY(8px) scale(.96);transform-origin:100% 100%;
+    transition:opacity .35s,transform .35s cubic-bezier(.2,.7,.3,1);pointer-events:none;
+  }
+  .bubble.on{opacity:1;transform:none}
+
+  /* ---------- 彩蛋 ---------- */
+  .spark{position:fixed;pointer-events:none;z-index:999;font-size:14px;animation:sparkUp .95s ease-out forwards}
+  @keyframes sparkUp{0%{opacity:1;transform:translate(0,0) scale(.6)}100%{opacity:0;transform:translate(var(--dx),var(--dy)) scale(1.25)}}
+  .toast{
+    position:fixed;left:50%;bottom:30px;translate:-50% 0;z-index:999;
+    padding:11px 20px;border-radius:2px;background:rgba(15,28,46,.94);color:#f3f6fa;
+    font-size:12.5px;letter-spacing:.04em;opacity:0;transform:translateY(10px);
+    transition:opacity .4s,transform .4s;pointer-events:none;max-width:86vw;
+  }
+  .toast.on{opacity:1;transform:none}
+
+  /* ---------- 响应式 ---------- */
+  @media (max-width:900px){
+    .cards{grid-template-columns:1fr}
+    .crow{grid-template-columns:1fr;gap:7px;align-items:start}
+    .nums{grid-template-columns:1fr;gap:30px}
+    .steps{grid-template-columns:1fr;gap:12px}
+    .faculty .nums{grid-template-columns:1fr 1fr;gap:32px 12px}
+    .plates{grid-template-columns:1fr;gap:1px}
+    .shops{grid-template-columns:1fr 1fr}
+    .hero-mark{display:none}
+    .hero-pals{right:12px;bottom:-40px;gap:2px}
+    .pal-long{width:68px}
+    .hero-naiwa{width:94px}
+    .hero-mark{
+    display:flex;flex-direction:column;gap:9px;margin-bottom:34px;
+  }
+  .hero-mark i{display:block;width:28px;height:1px;background:linear-gradient(90deg,rgba(217,188,130,.6),rgba(217,188,130,0))}
+  .hero-mark p{margin:0;font-size:10.5px;letter-spacing:.26em;color:rgba(255,255,255,.32)}
+  .hero-mark p.mono{font-family:Georgia,"Times New Roman",serif;font-size:9.5px;letter-spacing:.36em;color:rgba(217,188,130,.46)}
+
+  .scroll-hint{display:none}
+  }
+  @media (max-width:600px){
+    .nav{padding:0 18px;height:56px}
+    .links{gap:16px}
+    .links a:not(.back){display:none}
+    section{padding:70px 20px}
+    .hero{padding:96px 20px 168px}
+    .facts{grid-template-columns:1fr 1fr;gap:24px 10px;margin-top:38px;padding-top:26px}
+    .fact b{font-size:26px}
+    .hero-meta{font-size:9.8px;line-height:1.85;margin-top:32px}
+    .hero-mark p{font-size:9px;letter-spacing:.2em}
+    .hero-mark p.mono{font-size:8.4px;letter-spacing:.28em}
+    .hero-meta .hm{display:block}
+    .hero-meta .dot{display:none}
+    .tags{grid-template-columns:1fr 1fr;gap:8px}
+    .news-list li{flex-direction:column;gap:9px;padding:20px 16px}
+    .news-list .tag{width:auto}
+    .modal-card{padding:32px 22px 28px}
+    .mb-row{grid-template-columns:1fr;gap:6px}
+    .crow .addr .map{margin-left:2px}
+    .shops{grid-template-columns:1fr}
+    .shots{grid-template-columns:1fr}
+    .shots img{height:180px}
+    .tags span{font-size:11px;padding:9px 8px}
+    .path-note div{grid-template-columns:1fr;gap:4px}
+    .latin{font-size:9.5px;letter-spacing:.2em}
+    .motto{gap:14px}
+    .motto span{font-size:23px}
+    .cta{padding:76px 20px}
+    .bear{width:56px;height:56px;right:14px;bottom:14px}
+    .bear img{width:44px}
+    .bubble{right:74px;bottom:24px;max-width:190px;font-size:11.5px}
+  }
+</style>
+</head>
+<body>
+
+<nav class="nav" id="nav">
+  <a class="brand" href="index.html">
+    <img src="logo.png" alt="上海市贸易学校 校徽" />
+    <b>上海市贸易学校</b>
+  </a>
+  <div class="links">
+    <a href="#about">学校概况</a>
+    <a href="#majors">专业设置</a>
+    <a href="#campus">校区联系</a>
+    <a class="back" href="index.html">← 返回护送页</a>
+  </div>
+</nav>
+
+<header class="hero" id="hero">
+  <div class="hero-inner">
+    <img class="crest" src="logo.png" alt="上海市贸易学校 校徽" />
+    <h1>上海市贸易学校</h1>
+    <p class="latin">Shanghai Trade School · Since 1964</p>
+    <p class="lede">
+      国家级重点中等职业学校，国家级中等职业教育改革发展示范学校。<br />
+      围绕大食品产业链，建设<strong>食品技术</strong>、<strong>财经商贸</strong>、<strong>计算机信息</strong>三大专业群。
+    </p>
+    <div class="facts">
+      <div class="fact"><b data-count="1964">1964</b><span>建 校</span></div>
+      <div class="fact"><b data-count="60">60<i>亩</i></b><span>两 校 区</span></div>
+      <div class="fact"><b data-count="12">12<i>个</i></b><span>中 专 专 业</span></div>
+      <div class="fact"><b data-count="99">99<i>%</i></b><span>就 业 率</span></div>
+    </div>
+    <p class="hero-meta">
+      <span class="hm">学校官网 <a href="https://shsmyxx.edu.sh.cn" target="_blank" rel="noopener">shsmyxx.edu.sh.cn</a></span>
+      <span class="dot">·</span><span class="hm">个人创作的非官方页面，与学校无隶属关系，不代表校方立场</span>
+      <span class="dot">·</span><span class="hm">数据与照片取自公开信息，招生政策以官方为准</span>
+    </p>
+  </div>
+  <div class="hero-left" id="heroLeft">
+    <img class="pal-long" src="nailong.png" alt="奶龙" title="我是奶龙" />
+    <div class="hero-mark">
+      <i></i>
+      <p>上海 · 杨浦 / 普陀</p>
+      <p class="mono">EST. 1964</p>
+    </div>
+  </div>
+  <img class="hero-naiwa" id="heroNaiwa" src="naiwa.png" alt="奶娃" title="点我一下" />
+  <div class="scroll-hint">向 下</div>
+</header>
+
+<section class="about" id="about">
+  <div class="wrap">
+    <p class="eyebrow reveal">About</p>
+    <h2 class="reveal">六十年，把人育好</h2>
+    <div class="reveal">
+      <p>学校创建于 1964 年，设<strong>杨浦、普陀两个校区</strong>，占地 60 亩。以「为每一位学生的终身发展服务」为办学理念，以「育明德之人，精技艺之能」为使命，培养具有服务意识与奉献精神的<strong>阳光职业人</strong>。</p>
+      <p>近年就业率稳定维持在 99% 以上，企业满意度 100%。建有现代物流国家级实训基地，以及焙烤、国际商务、物联网三个市级开放实训中心。</p>
+    </div>
+    <div class="motto reveal">
+      <span>明德</span><span>诚信</span><span>勤学</span><span>自强</span>
+    </div>
+    <p class="motto-note reveal">校 训</p>
+    <figure class="motto-wall reveal">
+      <img src="motto-wall.jpg" loading="lazy" alt="校训石刻墙" />
+    </figure>
+  </div>
+</section>
+
+<section class="honors" id="honors">
+  <div class="wrap">
+    <p class="eyebrow reveal">Standing</p>
+    <h2 class="reveal">挂在校门口的那些牌子</h2>
+    <p class="sub reveal">教育部和市教委给的，一块一块挂上去，挂了几十年。</p>
+    <ul class="plates reveal">
+      <li><em>国家级</em><span>重点中等职业学校</span></li>
+      <li><em>国家级</em><span>中等职业教育改革发展示范校</span></li>
+      <li><em>教育部</em><span>教学诊断与改进试点院校</span></li>
+      <li><em>市级</em><span>上海市优质中职学校</span></li>
+      <li><em>市级</em><span>上海市新型技师学院</span></li>
+      <li><em>市级</em><span>教育信息化应用标杆学校</span></li>
+      <li><em>市级</em><span>上海市文明校园</span></li>
+      <li><em>市级</em><span>家庭教育工作示范校</span></li>
+      <li><em>市级</em><span>上海市绿色学校</span></li>
+    </ul>
+  </div>
+</section>
+
+<section class="majors" id="majors">
+  <div class="wrap">
+    <p class="eyebrow reveal">Majors</p>
+    <h2 class="reveal">三大专业群，12 个专业</h2>
+    <p class="sub reveal">从一块面包到一套代码，这里的手上有活儿。</p>
+    <div class="cards">
+      <div class="card reveal">
+        <svg class="ico" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20c0-6 5.4-11 12-11s12 5 12 11"/><path d="M4 20h24v3a3 3 0 0 1-3 3H7a3 3 0 0 1-3-3v-3Z"/><path d="M11 9c0-2.2 1.8-4 4-4"/></svg>
+        <h3>食品技术</h3>
+        <p class="en">Food Technology</p>
+        <p>围着大食品产业链做文章，从原料、配方到出品全流程上手，实训室里真开火。</p>
+        <ul>
+          <li>食品加工工艺（市级优质专业）</li>
+          <li>西餐烹饪</li>
+          <li>智慧健康与养老服务</li>
+        </ul>
+        <button class="card-more" data-major="food">看这个专业 <span>›</span></button>
+      </div>
+      <div class="card reveal">
+        <svg class="ico" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="17" width="5" height="10" rx="1"/><rect x="13.5" y="11" width="5" height="16" rx="1"/><rect x="23" y="5" width="5" height="22" rx="1"/></svg>
+        <h3>财经商贸</h3>
+        <p class="en">Business &amp; Trade</p>
+        <p>单证、报关、跨境店铺运营，把生意这门手艺一步步练扎实。</p>
+        <ul>
+          <li>国际商务（市级品牌专业）</li>
+          <li>电子商务</li>
+          <li>商务英语</li>
+          <li>物流管理</li>
+        </ul>
+        <button class="card-more" data-major="trade">看这个专业 <span>›</span></button>
+      </div>
+      <div class="card reveal">
+        <svg class="ico" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="14" height="14" rx="2"/><path d="M14 4v5M18 4v5M14 23v5M18 23v5M4 14h5M4 18h5M23 14h5M23 18h5"/></svg>
+        <h3>计算机信息</h3>
+        <p class="en">Information &amp; ICT</p>
+        <p>物联网、网络、大数据，代码和硬件都能上手，连续五届国赛物联网团体一等奖。</p>
+        <ul>
+          <li>物联网技术应用（市级品牌）</li>
+          <li>计算机网络技术 · 大数据技术应用</li>
+          <li>数字媒体技术应用 · 现代通信技术应用</li>
+        </ul>
+        <button class="card-more" data-major="ict">看这个专业 <span>›</span></button>
+      </div>
+    </div>
+    <div class="path-map">
+      <div class="pm-row reveal">
+        <b>直接就业</b>
+        <span>就业率稳定在 99% 以上，企业满意度 100%</span>
+      </div>
+      <div class="pm-row reveal">
+        <b>中高贯通 · 5 个</b>
+        <span>食品智能加工技术 · 软件技术 · 大数据技术 · 人工智能技术应用 · 电子商务</span>
+      </div>
+      <div class="pm-row reveal">
+        <b>中本贯通 · 4 个</b>
+        <span>酒店管理 · 食品营养与健康 · 国际经济与贸易（食品进出口）· 物联网工程</span>
+      </div>
+    </div>
+    <p class="path-tip reveal">读完三年中职，可以工作，也可以接着读高职、读本科。</p>
+  </div>
+</section>
+
+<section class="record">
+  <div class="wrap">
+    <p class="eyebrow reveal">Record</p>
+    <h2 class="reveal">赛场上的成绩</h2>
+    <div class="nums">
+      <div class="num reveal"><b data-count="5">5</b><span>位全国技术能手</span></div>
+      <div class="num reveal"><b data-count="7">7</b><span>名学生进入世赛国家集训队</span></div>
+      <div class="num reveal"><b>五</b><span>连届国赛物联网项目团体一等奖</span></div>
+    </div>
+    <p class="tail reveal">
+      与光明集团、中视央媒、宝尊电商等百余家企业保持合作，参与市域产教联合体建设；<br />
+      与云南大理农林职业技术学院共建咖啡产业学院，把咖啡师国际职业资格证书引入上海。
+    </p>
+  </div>
+</section>
+
+<section class="faculty" id="faculty">
+  <div class="wrap">
+    <p class="eyebrow reveal">Faculty</p>
+    <h2 class="reveal">教你的人</h2>
+    <p class="sub reveal">一百七十八位老师，把手上那点活一点一点传下去。</p>
+    <div class="nums">
+      <div class="num reveal"><b data-count="178">178</b><span>教职工</span></div>
+      <div class="num reveal"><b data-count="141">141</b><span>专任教师</span></div>
+      <div class="num reveal"><b data-count="72" data-suffix=".3%">72.3%</b><span>中高级职称</span></div>
+      <div class="num reveal"><b data-count="75" data-suffix="%">75%</b><span>双师型教师</span></div>
+    </div>
+    <p class="tail reveal">
+      1 个国家级、2 个上海市职业教育教师教学创新团队，1 个上海市名师工作室，3 个上海市技能大师工作室；<br />
+      2 名教师获上海市首席技师资助，5 位全国技术能手在校任教。
+    </p>
+  </div>
+</section>
+
+<section class="shop">
+  <div class="wrap">
+    <p class="eyebrow reveal">Workshop</p>
+    <h2 class="reveal">练手的地方</h2>
+    <p class="sub reveal">课在教室里上，手艺在实训室里长出来。</p>
+    <div class="shops">
+      <div class="shop-item reveal"><span class="lvl">国家级</span><b>现代物流实训基地</b></div>
+      <div class="shop-item reveal"><span class="lvl">市级开放</span><b>焙烤实训中心</b></div>
+      <div class="shop-item reveal"><span class="lvl">市级开放</span><b>国际商务实训中心</b></div>
+      <div class="shop-item reveal"><span class="lvl">市级开放</span><b>物联网实训中心</b></div>
+      <div class="shop-item reveal"><span class="lvl">高水平</span><b>智慧食品实训中心</b></div>
+      <div class="shop-item reveal"><span class="lvl">校企合作</span><b>百余家企业 · 产教联合体</b></div>
+    </div>
+    <p class="shop-note reveal">
+      这里同时是<b>世界技能大赛</b>烘焙、糖艺／西点制作、烹饪（西餐）三个项目的 <b>上海选手集训主基地</b>。
+    </p>
+  </div>
+</section>
+
+<section class="gallery">
+  <div class="wrap">
+    <p class="eyebrow reveal">Campus</p>
+    <h2 class="reveal">校园掠影</h2>
+    <p class="sub reveal">两个校区，60 亩地，都是真的。</p>
+    <div class="shots">
+      <figure class="shot-wide reveal"><img src="lawn.jpg" loading="lazy" alt="校园草坪" /><figcaption>校园草坪 · 草地尽头是智慧温室</figcaption></figure>
+      <figure class="reveal"><img src="coffee.jpg" loading="lazy" alt="咖啡实训室" /><figcaption>咖啡实训室 · 一排意式咖啡机</figcaption></figure>
+      <figure class="reveal"><img src="center.jpg" loading="lazy" alt="上海市职业教育开放实训中心" /><figcaption>上海市职业教育开放实训中心</figcaption></figure>
+      <figure class="reveal"><img src="library.jpg" loading="lazy" alt="图书馆" /><figcaption>图书馆 · 门口那片竹子</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section class="news" id="news">
+  <div class="wrap">
+    <p class="eyebrow reveal">News</p>
+    <h2 class="reveal">学校在忙什么</h2>
+    <p class="sub reveal">这几件事都发生在校园里，标题摘自学校官网新闻栏目。</p>
+    <ul class="news-list">
+      <li class="reveal"><span class="tag">教师节</span><b>庆祝第 42 个教师节大会</b></li>
+      <li class="reveal"><span class="tag">技能展示</span><b>师生在第八届中国粮食交易大会作技能展示</b></li>
+      <li class="reveal"><span class="tag">世赛</span><b>第 48 届世界技能大赛首站媒体探营</b></li>
+      <li class="reveal"><span class="tag">竞赛</span><b>浦东新区匠心智播技能大赛 · 电商赛场特等奖</b></li>
+    </ul>
+    <p class="news-src reveal">更多动态与通知，见学校官网新闻栏目。</p>
+  </div>
+</section>
+
+<section class="campus" id="campus">
+  <div class="wrap">
+    <p class="eyebrow reveal">Campuses</p>
+    <h2 class="reveal">来学校看看</h2>
+    <p class="sub reveal">两个校区，60 亩地，两扇门都开着。</p>
+    <div class="crows">
+      <div class="crow reveal">
+        <div class="name">赤峰校区</div>
+        <div class="addr">
+          <a href="https://uri.amap.com/search?keyword=%E4%B8%8A%E6%B5%B7%E5%B8%82%E8%B4%B8%E6%98%93%E5%AD%A6%E6%A0%A1%EF%BC%88%E8%B5%A4%E5%B3%B0%E8%B7%AF%EF%BC%89&city=%E4%B8%8A%E6%B5%B7" target="_blank" rel="noopener">杨浦区赤峰路 43 号 <span class="map">地图 ↗</span></a>
+          <button class="copy" data-copy="上海市贸易学校（赤峰校区）杨浦区赤峰路43号">复制地址</button>
+        </div>
+        <a class="tel" href="tel:02165982277">6598 2277</a>
+      </div>
+      <div class="crow reveal">
+        <div class="name">云岭校区</div>
+        <div class="addr">
+          <a href="https://uri.amap.com/search?keyword=%E4%B8%8A%E6%B5%B7%E5%B8%82%E8%B4%B8%E6%98%93%E5%AD%A6%E6%A0%A1%EF%BC%88%E4%BA%91%E5%B2%AD%E8%B7%AF%EF%BC%89&city=%E4%B8%8A%E6%B5%B7" target="_blank" rel="noopener">普陀区云岭西路 689 弄 170 号 <span class="map">地图 ↗</span></a>
+          <button class="copy" data-copy="上海市贸易学校（云岭校区）普陀区云岭西路689弄170号">复制地址</button>
+        </div>
+        <a class="tel" href="tel:02152705773">5270 5773</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cta" id="visit">
+  <div class="wrap">
+    <p class="eyebrow reveal">Visit</p>
+    <h2 class="reveal">怎么来</h2>
+    <p class="reveal">没有捷径，但路很清楚。三步走完，剩下的交给三年。</p>
+    <ol class="steps">
+      <li class="reveal"><em>01</em><b>中考填志愿</b><span>在上海市中招平台填报，学校代码与招生计划以当年官方公布为准。</span></li>
+      <li class="reveal"><em>02</em><b>打电话问清楚</b><span>专业怎么选、住宿怎么安排、贯通培养要什么条件，直接打招生电话问。</span></li>
+      <li class="reveal"><em>03</em><b>来现场看一眼</b><span>开放日或工作日来访，实训室、食堂、宿舍，都能自己走一遍。</span></li>
+    </ol>
+    <div class="btns reveal">
+      <a class="btn btn-primary" href="tel:02165982277">招生咨询 6598 2277</a>
+      <a class="btn btn-ghost" href="https://shsmyxx.edu.sh.cn" target="_blank" rel="noopener">学校官网 · 招生专栏</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="flinks">
+    <a href="#about">学校概况</a>
+    <a href="#majors">专业设置</a>
+    <a href="#campus">校区联系</a>
+    <a href="index.html">返回护送页</a>
+    <a href="https://shsmyxx.edu.sh.cn" target="_blank" rel="noopener">学校官网 shsmyxx.edu.sh.cn</a>
+  </div>
+  <p class="fsub">上海市贸易学校 · 新生护送中心</p>
+  <div class="legal">
+    <b>声明</b>本页由个人独立设计制作，是<strong>非官方</strong>介绍页面，与上海市贸易学校无隶属关系，亦不代表校方立场。<br />
+    文字、数据与实景照片整理自学校官网及学校微信公众号的公开内容，整理时间 2026 年 11 月；若与校方最新发布有出入，以校方发布为准。<br />
+    校徽、校名及相关标识、校园照片版权归上海市贸易学校所有，在此仅作非商业性的展示与练习；如相关权利人认为存在不当使用，请联系告知，核实后立即删除。<br />
+    招生专业、录取规则、收费标准与活动安排一律以学校官方发布为准，本页不作任何承诺，也不收集任何个人信息。
+  </div>
+</footer>
+
+<!-- 专业详情浮层 -->
+<div class="modal" id="modal" aria-hidden="true">
+  <div class="modal-mask" data-close></div>
+  <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <button class="modal-close" data-close aria-label="关闭">×</button>
+    <p class="modal-eyebrow" id="modalEyebrow"></p>
+    <h3 id="modalTitle"></h3>
+    <div class="modal-body" id="modalBody"></div>
+  </div>
+</div>
+
+<!-- 小熊助手：轻松熊风格（原创 SVG 绘制） -->
+<div class="bear" id="bear" role="button" tabindex="0" aria-label="小熊助手">
+  <img src="bear.png" alt="小熊助手" />
+</div>
+<div class="bubble" id="bubble">往下看，我带你逛一圈</div>
+<div class="toast" id="toast"></div>
+
+<script>
+(function(){
+  "use strict";
+
+  /* ---- 导航吸顶 ---- */
+  var nav = document.getElementById("nav");
+  function onScroll(){ nav.classList.toggle("solid", window.scrollY > 40); }
+  onScroll(); window.addEventListener("scroll", onScroll, {passive:true});
+
+  /* ---- 滚动淡入 ---- */
+  var reveals = [].slice.call(document.querySelectorAll(".reveal"));
+  if ("IntersectionObserver" in window){
+    var io = new IntersectionObserver(function(es){
+      es.forEach(function(e){
+        if (!e.isIntersecting) return;
+        var el = e.target, row = el.parentNode ? [].slice.call(el.parentNode.children).filter(function(n){
+          return n.classList && n.classList.contains("reveal");
+        }) : [];
+        var i = row.indexOf(el);
+        el.style.transitionDelay = (i > 0 ? Math.min(i * 70, 420) : 0) + "ms";
+        el.classList.add("in");
+        io.unobserve(el);
+      });
+    }, {threshold:.16, rootMargin:"0px 0px -8% 0px"});
+    reveals.forEach(function(el){ io.observe(el); });
+  } else {
+    reveals.forEach(function(el){ el.classList.add("in"); });
+  }
+
+  /* ---- 数字滚动 ---- */
+  function countUp(el){
+    var target = parseInt(el.getAttribute("data-count"), 10);
+    if (!target || el.dataset.done) return;
+    el.dataset.done = "1";
+    var suf = el.querySelector("i"), sufHTML = suf ? suf.outerHTML : "";
+    var dur = 1200, t0 = null;
+    function frame(t){
+      if (!t0) t0 = t;
+      var p = Math.min((t - t0) / dur, 1), e = 1 - Math.pow(1 - p, 3);
+      el.innerHTML = Math.round(target * e) + sufHTML;
+      if (p < 1) requestAnimationFrame(frame);
+    }
+    requestAnimationFrame(frame);
+  }
+  if ("IntersectionObserver" in window){
+    var io2 = new IntersectionObserver(function(es){
+      es.forEach(function(e){ if (e.isIntersecting){ countUp(e.target); io2.unobserve(e.target); } });
+    }, {threshold:.6});
+    [].slice.call(document.querySelectorAll("[data-count]")).forEach(function(el){ io2.observe(el); });
+  }
+
+  /* ---- 星星 ---- */
+  var SPARK_COLORS = ["#d9bc82","#e8b76a","#c79553","#b9945a"];
+  function spark(x, y, n){
+    n = n || 7;
+    for (var i = 0; i < n; i++){
+      (function(i){
+        var s = document.createElement("span");
+        s.className = "spark";
+        s.textContent = i % 2 ? "✦" : "♥";
+        s.style.color = SPARK_COLORS[i % SPARK_COLORS.length];
+        s.style.left = x + "px"; s.style.top = y + "px";
+        s.style.fontSize = (11 + Math.random() * 8).toFixed(0) + "px";
+        var ang = Math.PI * (0.12 + Math.random() * 0.76);
+        var dist = 38 + Math.random() * 66;
+        s.style.setProperty("--dx", (Math.cos(ang) * dist * (Math.random() < .5 ? -1 : 1)).toFixed(1) + "px");
+        s.style.setProperty("--dy", (-Math.sin(ang) * dist).toFixed(1) + "px");
+        document.body.appendChild(s);
+        setTimeout(function(){ s.remove(); }, 1000);
+      })(i);
+    }
+  }
+
+  /* ---- 奶娃 ---- */
+  var NAIWA = [
+    "别戳我肚子，那里面是六十年攒下来的知识。",
+    "焙烤中心一开炉，我隔着两栋楼就闻出来了。",
+    "物联网五连冠？我踢的。……好吧，是学长们踢的。",
+    "咖啡师证我有，但我只喝热的。",
+    "60 亩地我每天走三圈，这叫巡逻。",
+    "开学那天有人把我当吉祥物，其实我是校徽成精。",
+    "就业率 99%，剩下那 1% 大概在找食堂。",
+    "别掏我口袋，里头只有面包屑。",
+    "想报考？打 6598 2277，别说是我给的。",
+    "点这么多次，你是不是没别的事干了。"
+  ];
+  var toastEl = document.getElementById("toast"), tTimer = null;
+  function toast(msg){
+    toastEl.textContent = msg; toastEl.classList.add("on");
+    clearTimeout(tTimer);
+    tTimer = setTimeout(function(){ toastEl.classList.remove("on"); }, 2800);
+  }
+  var ni = 0, li = 0;
+  var heroNaiwa = document.getElementById("heroNaiwa");
+  if (heroNaiwa){
+    heroNaiwa.addEventListener("click", function(ev){
+      tinyNaiwa(heroNaiwa);
+      spark(ev.clientX, ev.clientY, 6);
+      toast(NAIWA[ni++ % NAIWA.length]);
+    });
+  }
+  var LONG = [
+    "我还小，等我长大也考这儿。",
+    "他怎么老挡我镜头。",
+    "这楼里有十二个专业，我数了三遍。",
+    "机房好凉快，我能住那儿吗？",
+    "刚才有人在拍照，我躲开了。",
+    "你手上那个东西……能吃吗？",
+    "我哥说这儿能学做蛋糕，我就跟着来了。",
+    "别按我头，会扁的。",
+    "电梯在哪？我想上去看看。",
+    "你要走了吗？把我也带上。"
+  ];
+  var heroLong = document.querySelector(".pal-long");
+  if (heroLong){
+    heroLong.addEventListener("click", function(ev){
+      tinyNaiwa(heroLong);
+      spark(ev.clientX, ev.clientY, 6);
+      toast(LONG[li++ % LONG.length]);
+    });
+  }
+  function tinyNaiwa(el){
+    el.style.animation = "none";
+    el.offsetHeight;
+    el.style.animation = "naiwaPop .48s cubic-bezier(.2,.8,.3,1)";
+    setTimeout(function(){ el.style.animation = ""; }, 520);
+  }
+
+  /* ---- 小熊助手：随板块说话 + 点击互动 ---- */
+  var bear = document.getElementById("bear"), bubble = document.getElementById("bubble");
+  var hero = document.getElementById("hero");
+  var bTimer = null, curSection = null;
+  var TALK = {
+    hero:   "往下看，我带你逛一圈",
+    about:  "六十年了，校训是「明德 诚信 勤学 自强」",
+    honors: "牌子有点多，我数到第七块就乱了",
+    majors: "三个专业群，十二个专业，总有对口的",
+    faculty:"一百七十八位老师，我记不住名字",
+    campus: "赤峰路 43 号，云岭西路 689 弄 170 号",
+    visit:  "打电话过去，真的有人接",
+    footer: "看完啦，点上面的链接回去吧"
+  };
+  function say(text, hold){
+    if (!bear.classList.contains("show")) return;
+    bubble.textContent = text; bubble.classList.add("on");
+    clearTimeout(bTimer);
+    bTimer = setTimeout(function(){ bubble.classList.remove("on"); }, hold || 3600);
+  }
+  function setSection(key){
+    if (key === curSection) return;
+    curSection = key;
+    if (key && TALK[key]) say(TALK[key], 3400);
+  }
+
+  // 首屏之外才显示小熊；奶娃随滚动淡出
+  var heroNaiwaEl = document.getElementById("heroNaiwa"), heroLeftEl = document.getElementById("heroLeft");
+  function bearVisibility(){
+    var y = window.scrollY, vh = window.innerHeight;
+    bear.classList.toggle("show", y > vh * 0.55);
+    var opa = Math.max(0, 1 - y / (vh * 0.42)).toFixed(2);
+    if (heroNaiwaEl) heroNaiwaEl.style.opacity = opa;
+    if (heroLeftEl) heroLeftEl.style.opacity = opa;
+  }
+  bearVisibility();
+  window.addEventListener("scroll", bearVisibility, {passive:true});
+
+  // 板块感知
+  var secs = [["hero",document.getElementById("hero")],["about",document.getElementById("about")],
+              ["honors",document.getElementById("honors")],["majors",document.getElementById("majors")],
+              ["faculty",document.getElementById("faculty")],["campus",document.getElementById("campus")],
+              ["visit",document.getElementById("visit")],["footer",document.querySelector("footer")]];
+  if ("IntersectionObserver" in window){
+    var io3 = new IntersectionObserver(function(es){
+      es.forEach(function(e){
+        if (e.isIntersecting){
+          var hit = secs.filter(function(s){ return s[1] === e.target; })[0];
+          if (hit) setSection(hit[0]);
+        }
+      });
+    }, {threshold:.45});
+    secs.forEach(function(s){ if (s[1]) io3.observe(s[1]); });
+  }
+
+  var BEAR_LINES = [
+    "我是小熊，戴眼镜是因为要看清 60 亩地。",
+    "点我有什么用？没什么用，但很快乐。",
+    "听说焙烤实训中心一开炉，整层楼都是香的。",
+    "国赛物联网项目，他们连拿五届团体一等奖。",
+    "咖啡师国际职业资格证书，这里能考。",
+    "赤峰路 43 号、云岭西路 689 弄 170 号，两个门都开着。",
+    "就业率 99%，剩下 1% 大概在睡觉。",
+    "别光看我，往下翻，有电话。",
+    "这页是学长自己做的，不是校方官网哦。",
+    "你点得有点勤，我眼镜都要掉了。"
+  ];
+  var bi = 0;
+  function pokeBear(ev){
+    spark(ev.clientX, ev.clientY, 8);
+    bear.classList.add("bounce");
+    setTimeout(function(){ bear.classList.remove("bounce"); }, 620);
+    say(BEAR_LINES[bi++ % BEAR_LINES.length], 3000);
+  }
+  bear.addEventListener("click", pokeBear);
+  bear.addEventListener("keydown", function(e){
+    if (e.key === "Enter" || e.key === " "){ e.preventDefault(); pokeBear({clientX: innerWidth - 50, clientY: innerHeight - 50}); }
+  });
+  // 鼠标靠近时歪头
+  document.addEventListener("mousemove", function(e){
+    if (!bear.classList.contains("show")) return;
+    var r = bear.getBoundingClientRect();
+    var dx = e.clientX - (r.left + r.width / 2);
+    var dy = e.clientY - (r.top + r.height / 2);
+    var k = Math.max(-1, Math.min(1, dx / 320));
+    bear.querySelector("img").style.transform =
+      "rotate(" + (k * 9).toFixed(1) + "deg) translate(" + (k * 2).toFixed(1) + "px," + (Math.max(-1,Math.min(1,dy/320)) * 1.5).toFixed(1) + "px)";
+  }, {passive:true});
+
+
+  /* ---- 专业详情浮层 ---- */
+  var MAJORS = {
+    food: {
+      eyebrow: "Food Technology",
+      title: "食品技术 · 食品加工工艺",
+      rows: [
+        ["学什么", "原料与配方、焙烤与西点、食品安全与检验，从进料到出品整条链都摸一遍。"],
+        ["在哪练", "市级开放的焙烤实训中心、高水平的智慧食品实训中心；学校还是世界技能大赛烘焙项目上海选手的集训主基地。"],
+        ["往哪走", "烘焙与食品加工企业、连锁餐饮、食品安全检测机构；也可通过贯通培养继续读下去。"]
+      ]
+    },
+    trade: {
+      eyebrow: "Business & Trade",
+      title: "财经商贸 · 国际商务",
+      rows: [
+        ["学什么", "外贸单证、报关报检、跨境电商店铺运营、商务英语，从写一封邮件到走一票货。"],
+        ["在哪练", "国际商务开放实训中心，加上现代物流国家级实训基地，单证与仓储都上机操作。"],
+        ["往哪走", "外贸与货代企业、跨境电商运营、物流与供应链岗位；中本可衔接国际经济与贸易。"]
+      ]
+    },
+    ict: {
+      eyebrow: "Information & ICT",
+      title: "计算机信息 · 物联网技术应用",
+      rows: [
+        ["学什么", "传感器与网络、嵌入式与数据处理、系统集成，代码和硬件都得动手。"],
+        ["在哪练", "物联网开放实训中心；连续五届拿下全国职业院校技能大赛物联网项目团体一等奖。"],
+        ["往哪走", "物联网工程实施、网络运维、数据分析岗位；中本贯通可衔接物联网工程专业。"]
+      ]
+    }
+  };
+  var modal = document.getElementById("modal");
+  if (modal){
+    var mEye = document.getElementById("modalEyebrow"),
+        mTitle = document.getElementById("modalTitle"),
+        mBody = document.getElementById("modalBody");
+    function openModal(key){
+      var d = MAJORS[key]; if (!d) return;
+      mEye.textContent = d.eyebrow;
+      mTitle.textContent = d.title;
+      mBody.innerHTML = d.rows.map(function(r){
+        return '<div class="mb-row"><dt>' + r[0] + '</dt><dd>' + r[1] + '</dd></div>';
+      }).join("");
+      modal.classList.add("on");
+      modal.setAttribute("aria-hidden", "false");
+      document.body.style.overflow = "hidden";
+    }
+    function closeModal(){
+      modal.classList.remove("on");
+      modal.setAttribute("aria-hidden", "true");
+      document.body.style.overflow = "";
+    }
+    [].slice.call(document.querySelectorAll(".card-more")).forEach(function(b){
+      b.addEventListener("click", function(){ openModal(b.getAttribute("data-major")); });
+    });
+    [].slice.call(modal.querySelectorAll("[data-close]")).forEach(function(el){
+      el.addEventListener("click", closeModal);
+    });
+    document.addEventListener("keydown", function(e){
+      if (e.key === "Escape" && modal.classList.contains("on")) closeModal();
+    });
+  }
+
+  /* ---- 复制校区地址 ---- */
+  [].slice.call(document.querySelectorAll("[data-copy]")).forEach(function(btn){
+    btn.addEventListener("click", function(){
+      var text = btn.getAttribute("data-copy");
+      function done(){ btn.textContent = "已复制"; setTimeout(function(){ btn.textContent = "复制地址"; }, 1600); }
+      if (navigator.clipboard && navigator.clipboard.writeText){
+        navigator.clipboard.writeText(text).then(done, done);
+      } else {
+        var t = document.createElement("textarea");
+        t.value = text; document.body.appendChild(t); t.select();
+        try { document.execCommand("copy"); } catch(e){}
+        t.remove(); done();
+      }
+    });
+  });
+
+  /* ---- 锚点平滑 ---- */
+  [].slice.call(document.querySelectorAll('a[href^="#"]')).forEach(function(a){
+    a.addEventListener("click", function(e){
+      var id = a.getAttribute("href").slice(1);
+      var t = id && document.getElementById(id);
+      if (t){ e.preventDefault(); t.scrollIntoView({behavior:"smooth", block:"start"}); }
+    });
+  });
+})();
+</script>
+</body>
+</html>
